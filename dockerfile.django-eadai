@@ -27,4 +27,6 @@ RUN pip install 'google-auth==2.36.0'
 RUN pip install 'python-dotenv==1.0.1'
 RUN pip install 'pillow==11.0.0'
 RUN pip install 'ragflow-sdk==0.15.1'
+RUN pip install 'pandas==2.2.3'
+RUN pip install 'mlxtend==0.23.3'
 RUN mkdir app
