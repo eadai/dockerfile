@@ -34,5 +34,5 @@ RUN pip install 'crispy-bootstrap5==2024.10'
 RUN pip install 'scikit-learn'
 RUN pip install 'seaborn'
 RUN pip install 'graphviz'
-RUN pip install 'SMOTE'
+RUN pip install 'imbalanced-learn'
 RUN mkdir app
