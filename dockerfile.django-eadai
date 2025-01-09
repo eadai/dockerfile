@@ -33,4 +33,5 @@ RUN pip install 'django-crispy-forms==2.3'
 RUN pip install 'crispy-bootstrap5==2024.10'
 RUN pip install 'scikit-learn'
 RUN pip install 'seaborn'
+RUN pip install 'graphviz'
 RUN mkdir app
